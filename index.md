@@ -1,13 +1,9 @@
 # pg-sugiyama Github Page
-## Using Boards
-- ESP32-DevkitC
-  - PWM
-  - ESP-Now
-  - UART
-  - SPI
-- Arduino Uno
-  - UART
-  - SPI
-- M5Stack
-  - PWM
-- ATtiny85
+---
+layout: default
+title: Home
+---
+
+# Welcome to My Minimal Site
+
+This is a simple site using the Minimal theme.
