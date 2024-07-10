@@ -1,13 +1,7 @@
-# pg-sugiyama Github Page
-## using boards
-- ESP32-DevkitC
-  - PWM
-  - ESP-Now
-  - UART
-  - SPI
-- Arduino Uno
-  - UART
-  - SPI
-- M5Stack
-  - PWM
-- ATtiny85
+# サンプルページ
+
+Claudeのサポートで作成したページです。
+GitHub Pagesでホストされており、以下のURLで閲覧できます：
+https://pg-sugiyama.github.io/
+
+このプロジェクトはMITライセンスの下で公開されています。詳細は [LICENSE](LICENSE) ファイルを参照してください。

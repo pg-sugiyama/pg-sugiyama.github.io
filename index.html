@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サンプルページ</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .devices {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .device {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            width: calc(50% - 20px);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        .device:hover {
+            transform: translateY(-5px);
+        }
+        .device img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .device h2 {
+            color: #2c3e50;
+            margin-top: 0;
+            font-size: 1.8em;
+        }
+        .sample-text {
+            background-color: #f1c40f;
+            color: #34495e;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            header {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .device {
+                width: 100%;
+            }
+            .device h2 {
+                font-size: 1.5em;
+            }
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            .device {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>サンプルページ</h1>
+        <p>これはテスト用のデモページです。すべての情報は架空のものです。</p>
+    </header>
+    <main class="devices">
+        <section class="device">
+            <div class="sample-text">サンプル製品A</div>
+            <img src="/api/placeholder/400/300" alt="サンプルデバイスAの画像">
+            <h2>テストデバイス Alpha</h2>
+            <p>これは架空の製品説明です。実際の製品とは一切関係ありません。</p>
+            <ul>
+                <li>サンプル機能1: テスト用説明文</li>
+                <li>サンプル機能2: デモンストレーション用テキスト</li>
+                <li>サンプル機能3: 架空の性能指標</li>
+            </ul>
+        </section>
+        <section class="device">
+            <div class="sample-text">サンプル製品B</div>
+            <img src="/api/placeholder/400/300" alt="サンプルデバイスBの画像">
+            <h2>テストデバイス Beta</h2>
+            <p>この説明文は完全に架空のものです。レイアウトとデザインのデモンストレーション用です。</p>
+            <ul>
+                <li>テスト仕様1: サンプル値</li>
+                <li>テスト仕様2: 架空のパラメータ</li>
+                <li>テスト仕様3: デモ用の数値</li>
+                <li>テスト仕様4: 仮想的な特徴</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
